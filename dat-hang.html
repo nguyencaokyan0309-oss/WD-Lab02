@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ROSIE BEAUTY - website bán mỹ phẩm thực hành HTML thuần (WD-Lab02); không dùng CSS hoặc JavaScript.">
+  <meta name="author" content="Nguyễn Cao Kỳ Ân - 23110064">
+  <title>Đặt hàng mẫu | ROSIE BEAUTY</title>
+</head>
+<body bgcolor="#FFF8FA" text="#3B1F2B" link="#A3245B" vlink="#6B3FA0" alink="#E8628F">
+<a href="#noi-dung">Bỏ qua menu, đến nội dung chính</a>
+
+<header>
+  <!-- Banner thương hiệu: bảng 1 hàng 1 ô, nền màu bằng bgcolor (HTML legacy) -->
+  <table width="100%" border="0" cellpadding="15" cellspacing="0" bgcolor="#8E2C5A">
+    <tr>
+      <td align="center">
+        <font color="#FFFFFF" size="7"><b>✿ ROSIE BEAUTY</b></font><br>
+        <font color="#FFD6E5" size="4">GLOW NATURALLY · SHINE DAILY</font><br>
+        <font color="#FFFFFF" size="2">Cửa hàng mỹ phẩm mẫu | HTML ONLY</font>
+      </td>
+    </tr>
+  </table>
+  <!-- Menu điều hướng giữa 5 trang -->
+  <table width="100%" border="0" cellpadding="12" cellspacing="0" bgcolor="#FBE3EC">
+    <tr>
+      <td align="center">
+        <nav aria-label="Điều hướng chính">
+        <a href="index.html">⌂ Trang chủ</a>
+        &nbsp;|&nbsp;
+        <a href="index.html#san-pham">◈ Sản phẩm</a>
+        &nbsp;|&nbsp;
+        <a href="chi-tiet.html">▤ Chi tiết</a>
+        &nbsp;|&nbsp;
+        <a href="bang-gia.html">▦ Bảng giá</a>
+        &nbsp;|&nbsp;
+        <a href="dat-hang.html" aria-current="page"><b>✉ Đặt hàng mẫu</b></a>
+        </nav>
+      </td>
+    </tr>
+  </table>
+</header>
+
+<main id="noi-dung">
+  <table width="100%" border="0" cellpadding="16" cellspacing="0" bgcolor="#FFF2DC">
+    <tr>
+      <td>
+        <h1>✉ FORM ĐẶT HÀNG THỰC HÀNH</h1>
+        <p>Chỉ để luyện HTML Forms; không có hệ thống xử lý đơn, giao hàng hay thanh toán.</p>
+      </td>
+    </tr>
+  </table>
+
+  <table width="100%" border="0" cellpadding="15" cellspacing="8">
+    <tr>
+      <td bgcolor="#FFFFFF" valign="top" width="62%">
+        <h2>Thông tin đặt hàng mẫu</h2>
+        <form action="xac-nhan.html" method="get">
+          <fieldset>
+            <legend>Thông tin người đặt</legend>
+            <p><label for="ten">Họ tên *</label><br>
+              <input type="text" id="ten" name="hoTen" placeholder="Nguyen Thi A" minlength="2" maxlength="60" autocomplete="name" required></p>
+            <p><label for="email">Email *</label><br>
+              <input type="email" id="email" name="email" placeholder="demo@example.com" autocomplete="email" required></p>
+            <p><label for="phone">Số điện thoại * (10 số, chỉ nhập số giả lập)</label><br>
+              <input type="tel" id="phone" name="soDienThoai" placeholder="0900000000" pattern="0[0-9]{9}" title="Gồm 10 chữ số, bắt đầu bằng 0" required></p>
+            <p><label for="city">Tỉnh / Thành phố</label><br>
+              <select id="city" name="tinhThanh">
+                <option value="hcm">TP. Hồ Chí Minh</option>
+                <option value="hn">Hà Nội</option>
+                <option value="dn">Đà Nẵng</option>
+                <option value="khac">Tỉnh/thành khác</option>
+              </select></p>
+          </fieldset>
+
+          <fieldset>
+            <legend>Chi tiết sản phẩm</legend>
+            <p><label for="product">Sản phẩm *</label><br>
+              <select id="product" name="maSanPham" required>
+                <option value="">-- Chọn sản phẩm --</option>
+                <optgroup label="Chăm sóc da">
+                  <option value="MP01">MP01 - Sữa rửa mặt Gentle Foam (199.000 đ)</option>
+                  <option value="MP02">MP02 - Toner hoa hồng Rose Water (279.000 đ)</option>
+                  <option value="MP03">MP03 - Serum Vitamin C Bright 15% (459.000 đ)</option>
+                  <option value="MP04">MP04 - Kem dưỡng ẩm Hydra Gel (349.000 đ)</option>
+                </optgroup>
+                <optgroup label="Trang điểm">
+                  <option value="MP05">MP05 - Cushion Glow Cover SPF35 (449.000 đ)</option>
+                  <option value="MP06">MP06 - Son kem lì Velvet Matte (229.000 đ)</option>
+                  <option value="MP07">MP07 - Mascara Long Lash Waterproof (209.000 đ)</option>
+                  <option value="MP08">MP08 - Bảng phấn mắt Sunset 9 ô (319.000 đ)</option>
+                </optgroup>
+                <optgroup label="Chống nắng &amp; cơ thể">
+                  <option value="MP09">MP09 - Kem chống nắng Sun Shield SPF50+ (299.000 đ)</option>
+                  <option value="MP10">MP10 - Sữa dưỡng thể Body Glow (289.000 đ)</option>
+                </optgroup>
+              </select></p>
+            <p><label for="version">Màu / Tone / Phiên bản</label><br>
+              <select id="version" name="phienBan">
+                <option value="mac-dinh">Mặc định (sản phẩm chỉ có một phiên bản)</option>
+                <optgroup label="MP01 - Sữa rửa mặt Gentle Foam">
+                  <option value="MP01-100-ml">100 ml</option>
+                  <option value="MP01-150-ml">150 ml</option>
+                </optgroup>
+                <optgroup label="MP05 - Cushion Glow Cover SPF35">
+                  <option value="MP05-tone-21-sang">Tone 21 – Sáng</option>
+                  <option value="MP05-tone-23-tu-nhien">Tone 23 – Tự nhiên</option>
+                </optgroup>
+                <optgroup label="MP06 - Son kem lì Velvet Matte">
+                  <option value="MP06-do-gach">Đỏ gạch</option>
+                  <option value="MP06-hong-dat">Hồng đất</option>
+                  <option value="MP06-cam-chay">Cam cháy</option>
+                </optgroup>
+                <optgroup label="MP10 - Sữa dưỡng thể Body Glow">
+                  <option value="MP10-huong-tra-xanh">Hương trà xanh</option>
+                  <option value="MP10-huong-hoa-nhai">Hương hoa nhài</option>
+                </optgroup>
+              </select></p>
+            <p><label for="quantity">Số lượng (1–10) *</label><br>
+              <input type="number" id="quantity" name="soLuong" min="1" max="10" step="1" value="1" required></p>
+            <fieldset>
+              <legend>Loại da của bạn *</legend>
+              <label><input type="radio" name="loaiDa" value="da-dau" required> Da dầu</label><br>
+              <label><input type="radio" name="loaiDa" value="da-kho"> Da khô</label><br>
+              <label><input type="radio" name="loaiDa" value="da-hon-hop"> Da hỗn hợp</label><br>
+              <label><input type="radio" name="loaiDa" value="da-nhay-cam"> Da nhạy cảm</label><br>
+              <label><input type="radio" name="loaiDa" value="chua-ro"> Chưa rõ, cần tư vấn</label>
+            </fieldset>
+          </fieldset>
+
+          <fieldset>
+            <legend>Giao nhận &amp; quà tặng</legend>
+            <fieldset>
+              <legend>Hình thức nhận hàng *</legend>
+              <label><input type="radio" name="giaoHang" value="giao-tieu-chuan" required> Giao tiêu chuẩn (2–4 ngày)</label><br>
+              <label><input type="radio" name="giaoHang" value="giao-nhanh"> Giao nhanh nội thành (2 giờ)</label><br>
+              <label><input type="radio" name="giaoHang" value="tai-cua-hang"> Nhận tại cửa hàng</label>
+            </fieldset>
+            <fieldset>
+              <legend>Dịch vụ thêm (chọn nhiều)</legend>
+              <label><input type="checkbox" name="dichVu" value="goi-qua"> Gói quà</label><br>
+              <label><input type="checkbox" name="dichVu" value="mau-thu"> Nhận mẫu thử</label><br>
+              <label><input type="checkbox" name="dichVu" value="thiep"> Kèm thiệp chúc mừng</label>
+            </fieldset>
+            <p><label for="date">Ngày muốn nhận hàng</label><br>
+              <input type="date" id="date" name="ngayNhan"></p>
+            <p><label for="note">Ghi chú</label><br>
+              <textarea id="note" name="ghiChu" rows="4" cols="40" maxlength="300" placeholder="Ví dụ: tư vấn giúp tone cushion phù hợp (không bắt buộc)"></textarea></p>
+          </fieldset>
+
+          <p><label><input type="checkbox" name="dongY" value="yes" required> Tôi hiểu đây chỉ là form thực hành, không tạo đơn hàng thật *</label></p>
+          <button type="submit">Gửi yêu cầu mẫu</button>
+          <button type="reset">Nhập lại</button>
+        </form>
+      </td>
+      <td valign="top" bgcolor="#FBE3EC">
+        <h3>ⓘ Hướng dẫn</h3>
+        <ol>
+          <li>Tra mã sản phẩm ở bảng bên dưới.</li>
+          <li>Chọn sản phẩm, màu/phiên bản, số lượng.</li>
+          <li>Điền dữ liệu giả lập, không dùng thông tin thật.</li>
+          <li>Gửi và quan sát URL của trang kết quả.</li>
+        </ol>
+        <p><mark>Form dùng GET chỉ để minh họa query string.</mark></p>
+        <p>Trong sản phẩm thật cần backend, POST/HTTPS, xác thực và kiểm tra dữ liệu phía server.</p>
+        <table border="1" cellpadding="6" cellspacing="0" width="100%" bgcolor="#FFFFFF">
+          <caption><b>Bảng tra mã sản phẩm</b></caption>
+          <thead>
+            <tr bgcolor="#8E2C5A">
+              <th scope="col"><font color="white">Mã</font></th>
+              <th scope="col"><font color="white">Sản phẩm</font></th>
+              <th scope="col"><font color="white">Giá bán</font></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr id="MP01"><th scope="row">MP01</th><td><a href="chi-tiet.html#MP01">Sữa rửa mặt Gentle Foam</a></td><td align="right" nowrap>199.000 đ</td></tr>
+            <tr id="MP02"><th scope="row">MP02</th><td><a href="chi-tiet.html#MP02">Toner hoa hồng Rose Water</a></td><td align="right" nowrap>279.000 đ</td></tr>
+            <tr id="MP03"><th scope="row">MP03</th><td><a href="chi-tiet.html#MP03">Serum Vitamin C Bright 15%</a></td><td align="right" nowrap>459.000 đ</td></tr>
+            <tr id="MP04"><th scope="row">MP04</th><td><a href="chi-tiet.html#MP04">Kem dưỡng ẩm Hydra Gel</a></td><td align="right" nowrap>349.000 đ</td></tr>
+            <tr id="MP05"><th scope="row">MP05</th><td><a href="chi-tiet.html#MP05">Cushion Glow Cover SPF35</a></td><td align="right" nowrap>449.000 đ</td></tr>
+            <tr id="MP06"><th scope="row">MP06</th><td><a href="chi-tiet.html#MP06">Son kem lì Velvet Matte</a></td><td align="right" nowrap>229.000 đ</td></tr>
+            <tr id="MP07"><th scope="row">MP07</th><td><a href="chi-tiet.html#MP07">Mascara Long Lash Waterproof</a></td><td align="right" nowrap>209.000 đ</td></tr>
+            <tr id="MP08"><th scope="row">MP08</th><td><a href="chi-tiet.html#MP08">Bảng phấn mắt Sunset 9 ô</a></td><td align="right" nowrap>319.000 đ</td></tr>
+            <tr id="MP09"><th scope="row">MP09</th><td><a href="chi-tiet.html#MP09">Kem chống nắng Sun Shield SPF50+</a></td><td align="right" nowrap>299.000 đ</td></tr>
+            <tr id="MP10"><th scope="row">MP10</th><td><a href="chi-tiet.html#MP10">Sữa dưỡng thể Body Glow</a></td><td align="right" nowrap>289.000 đ</td></tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </table>
+</main>
+
+<footer>
+  <hr>
+  <table width="100%" border="0" cellpadding="16" cellspacing="0" bgcolor="#8E2C5A">
+    <tr>
+      <td align="center">
+        <font color="#FFFFFF"><b>✿ ROSIE BEAUTY</b> · 10 sản phẩm demo · © 2026</font><br>
+        <font color="#FFD6E5">Hotline (demo): 0900 000 000 · Email (demo): hotro@rosiebeauty.demo · Địa chỉ (demo): 227 Nguyễn Văn Cừ, Q.5, TP.HCM</font><br>
+        <font color="#FFD6E5">Dữ liệu, giá bán và đơn hàng đều mang tính minh họa phục vụ học tập.</font><br>
+        <font color="#FFFFFF" size="2">Sinh viên thực hiện: Nguyễn Cao Kỳ Ân – 23110064 – 23TTH1</font><br>
+        <a href="index.html"><font color="#FFFFFF">↥ Quay lại trang chủ</font></a>
+      </td>
+    </tr>
+  </table>
+</footer>
+</body>
+</html>
