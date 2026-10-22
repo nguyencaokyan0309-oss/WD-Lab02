@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ROSIE BEAUTY - website bán mỹ phẩm thực hành HTML thuần (WD-Lab02); không dùng CSS hoặc JavaScript.">
+  <meta name="author" content="Nguyễn Cao Kỳ Ân - 23110064">
+  <title>Bảng giá &amp; nhóm sản phẩm | ROSIE BEAUTY</title>
+</head>
+<body bgcolor="#FFF8FA" text="#3B1F2B" link="#A3245B" vlink="#6B3FA0" alink="#E8628F">
+<a href="#noi-dung">Bỏ qua menu, đến nội dung chính</a>
+
+<header>
+  <!-- Banner thương hiệu: bảng 1 hàng 1 ô, nền màu bằng bgcolor (HTML legacy) -->
+  <table width="100%" border="0" cellpadding="15" cellspacing="0" bgcolor="#8E2C5A">
+    <tr>
+      <td align="center">
+        <font color="#FFFFFF" size="7"><b>✿ ROSIE BEAUTY</b></font><br>
+        <font color="#FFD6E5" size="4">GLOW NATURALLY · SHINE DAILY</font><br>
+        <font color="#FFFFFF" size="2">Cửa hàng mỹ phẩm mẫu | HTML ONLY</font>
+      </td>
+    </tr>
+  </table>
+  <!-- Menu điều hướng giữa 5 trang -->
+  <table width="100%" border="0" cellpadding="12" cellspacing="0" bgcolor="#FBE3EC">
+    <tr>
+      <td align="center">
+        <nav aria-label="Điều hướng chính">
+        <a href="index.html">⌂ Trang chủ</a>
+        &nbsp;|&nbsp;
+        <a href="index.html#san-pham">◈ Sản phẩm</a>
+        &nbsp;|&nbsp;
+        <a href="chi-tiet.html">▤ Chi tiết</a>
+        &nbsp;|&nbsp;
+        <a href="bang-gia.html" aria-current="page"><b>▦ Bảng giá</b></a>
+        &nbsp;|&nbsp;
+        <a href="dat-hang.html">✉ Đặt hàng mẫu</a>
+        </nav>
+      </td>
+    </tr>
+  </table>
+</header>
+
+<main id="noi-dung">
+  <table width="100%" border="0" cellpadding="16" cellspacing="0" bgcolor="#FDE7EF">
+    <tr>
+      <td>
+        <h1>▦ BẢNG GIÁ SẢN PHẨM</h1>
+        <p>Bảng có hai tầng tiêu đề (colspan/rowspan), ba nhóm hàng (rowspan) và hàng tổng kết ở <code>tfoot</code>.</p>
+      </td>
+    </tr>
+  </table>
+
+  <table border="1" cellpadding="10" cellspacing="2" width="100%" bgcolor="#FFFFFF">
+    <caption><strong>BẢNG TỔNG HỢP 10 SẢN PHẨM MỸ PHẨM · DEMO ROWSPAN &amp; COLSPAN</strong></caption>
+    <!-- 8 cột logic: Nhóm | Mã·Tên | (Dung tích, Màu/Phiên bản) | (Niêm yết, Ưu đãi, Tiết kiệm) | Thao tác -->
+    <colgroup>
+      <col span="2">
+      <col span="2">
+      <col span="3">
+      <col>
+    </colgroup>
+    <thead>
+      <tr bgcolor="#8E2C5A">
+        <th rowspan="2" scope="col"><font color="white">Nhóm sản phẩm</font></th>
+        <th rowspan="2" scope="col"><font color="white">Mã · Tên sản phẩm</font></th>
+        <th colspan="2" scope="colgroup"><font color="white">THÔNG SỐ</font></th>
+        <th colspan="3" scope="colgroup"><font color="white">THÔNG TIN GIÁ (VND)</font></th>
+        <th rowspan="2" scope="col"><font color="white">Thao tác</font></th>
+      </tr>
+      <tr bgcolor="#FBE3EC">
+        <th scope="col">Dung tích</th>
+        <th scope="col">Màu / Phiên bản</th>
+        <th scope="col">Giá niêm yết</th>
+        <th scope="col">Giá ưu đãi</th>
+        <th scope="col">Tiết kiệm</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr bgcolor="#FDF2F6">
+        <th scope="rowgroup" rowspan="4" bgcolor="#F8D7E3">Chăm sóc da<br><small>(4 sản phẩm)</small></th>
+        <th scope="row" align="left"><a href="chi-tiet.html#MP01">MP01 · Sữa rửa mặt Gentle Foam</a></th>
+        <td align="center">150 ml</td>
+        <td>100 ml / 150 ml</td>
+        <td align="right" nowrap>250.000 đ</td>
+        <td align="right" nowrap><font color="#B0124F"><b>199.000 đ</b></font></td>
+        <td align="right" nowrap>51.000 đ</td>
+        <td align="center"><a href="dat-hang.html#MP01">✉ Chọn</a></td>
+      </tr>
+      <tr bgcolor="#FDF2F6">
+        <th scope="row" align="left"><a href="chi-tiet.html#MP02">MP02 · Toner hoa hồng Rose Water</a></th>
+        <td align="center">200 ml</td>
+        <td>200 ml (không cồn)</td>
+        <td align="right" nowrap>320.000 đ</td>
+        <td align="right" nowrap><font color="#B0124F"><b>279.000 đ</b></font></td>
+        <td align="right" nowrap>41.000 đ</td>
+        <td align="center"><a href="dat-hang.html#MP02">✉ Chọn</a></td>
+      </tr>
+      <tr bgcolor="#FDF2F6">
+        <th scope="row" align="left"><a href="chi-tiet.html#MP03">MP03 · Serum Vitamin C Bright 15%</a></th>
+        <td align="center">30 ml</td>
+        <td>30 ml – nồng độ 15%</td>
+        <td align="right" nowrap>590.000 đ</td>
+        <td align="right" nowrap><font color="#B0124F"><b>459.000 đ</b></font></td>
+        <td align="right" nowrap>131.000 đ</td>
+        <td align="center"><a href="dat-hang.html#MP03">✉ Chọn</a></td>
+      </tr>
+      <tr bgcolor="#FDF2F6">
+        <th scope="row" align="left"><a href="chi-tiet.html#MP04">MP04 · Kem dưỡng ẩm Hydra Gel</a></th>
+        <td align="center">50 ml</td>
+        <td>50 ml</td>
+        <td align="right" nowrap>420.000 đ</td>
+        <td align="right" nowrap><font color="#B0124F"><b>349.000 đ</b></font></td>
+        <td align="right" nowrap>71.000 đ</td>
+        <td align="center"><a href="dat-hang.html#MP04">✉ Chọn</a></td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr bgcolor="#FFF8EF">
+        <th scope="rowgroup" rowspan="4" bgcolor="#F8D7E3">Trang điểm<br><small>(4 sản phẩm)</small></th>
+        <th scope="row" align="left"><a href="chi-tiet.html#MP05">MP05 · Cushion Glow Cover SPF35</a></th>
+        <td align="center">15 g (kèm lõi thay thế)</td>
+        <td>Tone 21 – Sáng / Tone 23 – Tự nhiên</td>
+        <td align="right" nowrap>550.000 đ</td>
+        <td align="right" nowrap><font color="#B0124F"><b>449.000 đ</b></font></td>
+        <td align="right" nowrap>101.000 đ</td>
+        <td align="center"><a href="dat-hang.html#MP05">✉ Chọn</a></td>
+      </tr>
+      <tr bgcolor="#FFF8EF">
+        <th scope="row" align="left"><a href="chi-tiet.html#MP06">MP06 · Son kem lì Velvet Matte</a></th>
+        <td align="center">3,5 g</td>
+        <td>Đỏ gạch / Hồng đất / Cam cháy</td>
+        <td align="right" nowrap>280.000 đ</td>
+        <td align="right" nowrap><font color="#B0124F"><b>229.000 đ</b></font></td>
+        <td align="right" nowrap>51.000 đ</td>
+        <td align="center"><a href="dat-hang.html#MP06">✉ Chọn</a></td>
+      </tr>
+      <tr bgcolor="#FFF8EF">
+        <th scope="row" align="left"><a href="chi-tiet.html#MP07">MP07 · Mascara Long Lash Waterproof</a></th>
+        <td align="center">8 ml</td>
+        <td>Đen (chống nước)</td>
+        <td align="right" nowrap>250.000 đ</td>
+        <td align="right" nowrap><font color="#B0124F"><b>209.000 đ</b></font></td>
+        <td align="right" nowrap>41.000 đ</td>
+        <td align="center"><a href="dat-hang.html#MP07">✉ Chọn</a></td>
+      </tr>
+      <tr bgcolor="#FFF8EF">
+        <th scope="row" align="left"><a href="chi-tiet.html#MP08">MP08 · Bảng phấn mắt Sunset 9 ô</a></th>
+        <td align="center">9 × 1,2 g</td>
+        <td>Bảng Sunset 9 ô</td>
+        <td align="right" nowrap>390.000 đ</td>
+        <td align="right" nowrap><font color="#B0124F"><b>319.000 đ</b></font></td>
+        <td align="right" nowrap>71.000 đ</td>
+        <td align="center"><a href="dat-hang.html#MP08">✉ Chọn</a></td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr bgcolor="#F2F9F1">
+        <th scope="rowgroup" rowspan="2" bgcolor="#F8D7E3">Chống nắng &amp; cơ thể<br><small>(2 sản phẩm)</small></th>
+        <th scope="row" align="left"><a href="chi-tiet.html#MP09">MP09 · Kem chống nắng Sun Shield SPF50+</a></th>
+        <td align="center">50 ml</td>
+        <td>50 ml – SPF50+ PA++++</td>
+        <td align="right" nowrap>380.000 đ</td>
+        <td align="right" nowrap><font color="#B0124F"><b>299.000 đ</b></font></td>
+        <td align="right" nowrap>81.000 đ</td>
+        <td align="center"><a href="dat-hang.html#MP09">✉ Chọn</a></td>
+      </tr>
+      <tr bgcolor="#F2F9F1">
+        <th scope="row" align="left"><a href="chi-tiet.html#MP10">MP10 · Sữa dưỡng thể Body Glow</a></th>
+        <td align="center">300 ml</td>
+        <td>Hương trà xanh / Hương hoa nhài</td>
+        <td align="right" nowrap>350.000 đ</td>
+        <td align="right" nowrap><font color="#B0124F"><b>289.000 đ</b></font></td>
+        <td align="right" nowrap>61.000 đ</td>
+        <td align="center"><a href="dat-hang.html#MP10">✉ Chọn</a></td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr bgcolor="#FFE6A7">
+        <th colspan="4" scope="row">TỔNG HỢP 10 SẢN PHẨM (không phải tổng giỏ hàng)</th>
+        <td align="right" nowrap><strong>3.780.000 đ</strong></td>
+        <td align="right" nowrap><strong>3.080.000 đ</strong></td>
+        <td align="right" nowrap><strong>700.000 đ</strong></td>
+        <td align="center"><b>10 SP</b></td>
+      </tr>
+      <tr bgcolor="#E1F2E5">
+        <td colspan="8" align="center"><strong>GHI NHỚ:</strong> colspan gộp các cột; rowspan gộp các hàng; th + scope mô tả tiêu đề của dữ liệu.</td>
+      </tr>
+    </tfoot>
+  </table>
+  <p><mark>Lưu ý:</mark> HTML không tự tính tổng; toàn bộ số tiền trong bảng (kể cả hàng tổng) đã được nhập sẵn thủ công.</p>
+</main>
+
+<footer>
+  <hr>
+  <table width="100%" border="0" cellpadding="16" cellspacing="0" bgcolor="#8E2C5A">
+    <tr>
+      <td align="center">
+        <font color="#FFFFFF"><b>✿ ROSIE BEAUTY</b> · 10 sản phẩm demo · © 2026</font><br>
+        <font color="#FFD6E5">Hotline (demo): 0900 000 000 · Email (demo): hotro@rosiebeauty.demo · Địa chỉ (demo): 227 Nguyễn Văn Cừ, Q.5, TP.HCM</font><br>
+        <font color="#FFD6E5">Dữ liệu, giá bán và đơn hàng đều mang tính minh họa phục vụ học tập.</font><br>
+        <font color="#FFFFFF" size="2">Sinh viên thực hiện: Nguyễn Cao Kỳ Ân – 23110064 – 23TTH1</font><br>
+        <a href="index.html"><font color="#FFFFFF">↥ Quay lại trang chủ</font></a>
+      </td>
+    </tr>
+  </table>
+</footer>
+</body>
+</html>
