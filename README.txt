@@ -2,6 +2,7 @@ ROSIE BEAUTY — HTML-ONLY E-COMMERCE | WD-Lab02 (Thiết Kế Web)
 =============================================================
 Sinh viên: Nguyễn Cao Kỳ Ân – MSSV 23110064 – Lớp 23TTH1
 Chạy: bật Apache (XAMPP) rồi mở http://localhost/WD-Lab02/
+Xem online (GitHub Pages): https://nguyencaokyan0309-oss.github.io/WD-Lab02/
 
 Ngành hàng: MỸ PHẨM (khác ngành giày dép của StepUp Shoes mẫu).
 Khách hàng mục tiêu: sinh viên và nhân viên văn phòng 18–30 tuổi.
@@ -27,3 +28,6 @@ align, valign, nowrap, cellpadding, cellspacing, border, font color/size) — ch
 học tập trước khi học CSS, không phải best practice hiện đại.
 Số tiền tổng trong bảng giá được nhập thủ công; HTML không tự tính toán.
 Toàn bộ giá, chính sách, hotline, email và địa chỉ đều là dữ liệu demo.
+
+Công cụ hỗ trợ: trong quá trình làm bài, sinh viên có nhờ Claude (Anthropic) hỗ trợ
+chỉnh sửa code HTML, kiểm tra lỗi và soạn báo cáo.
