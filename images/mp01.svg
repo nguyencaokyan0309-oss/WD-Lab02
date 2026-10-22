@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="420" viewBox="0 0 640 420" role="img" aria-label="Sữa rửa mặt Gentle Foam">
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#FFF9FB"/><stop offset="1" stop-color="#FBE4EC"/></linearGradient></defs>
+<rect width="640" height="420" rx="24" fill="url(#bg)"/>
+<circle cx="500" cy="96" r="92" fill="#F4A7C0" opacity="0.25"/>
+<circle cx="120" cy="300" r="54" fill="#F4A7C0" opacity="0.15"/>
+<ellipse cx="320" cy="352" rx="200" ry="14" fill="#5A3445" opacity="0.15"/>
+
+<path d="M245 70 L395 70 L380 290 Q378 300 368 300 L272 300 Q262 300 260 290 Z" fill="#FFFFFF" stroke="#4A2335" stroke-width="5"/>
+<rect x="240" y="58" width="160" height="16" rx="3" fill="#F6C9D8" stroke="#4A2335" stroke-width="4"/>
+<rect x="272" y="298" width="96" height="48" rx="8" fill="#E57FA3" stroke="#4A2335" stroke-width="5"/>
+<rect x="268" y="130" width="104" height="70" rx="10" fill="#FBE4EC"/>
+<text x="320" y="160" font-size="20" font-family="Arial, sans-serif" fill="#4A2335" font-weight="bold" text-anchor="middle">GENTLE</text><text x="320" y="186" font-size="20" font-family="Arial, sans-serif" fill="#4A2335" font-weight="bold" text-anchor="middle">FOAM</text>
+<text x="320" y="236" font-size="13" font-family="Arial, sans-serif" fill="#7A3B57" font-weight="normal" text-anchor="middle">150 ml · cleanser</text>
+<circle cx="450" cy="250" r="16" fill="#FFFFFF" stroke="#F4A7C0" stroke-width="3"/>
+<circle cx="478" cy="222" r="10" fill="#FFFFFF" stroke="#F4A7C0" stroke-width="3"/>
+<circle cx="470" cy="276" r="8" fill="#FFFFFF" stroke="#F4A7C0" stroke-width="3"/>
+<text x="32" y="48" font-size="26" font-family="Arial, sans-serif" fill="#5A1F3A" font-weight="bold">MP01</text>
+<text x="32" y="392" font-size="20" font-family="Arial, sans-serif" fill="#7A3B57">ROSIE BEAUTY DEMO</text>
+</svg>

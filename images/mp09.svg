@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="420" viewBox="0 0 640 420" role="img" aria-label="Kem chống nắng Sun Shield SPF50+">
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#FFFDF2"/><stop offset="1" stop-color="#FDF0C2"/></linearGradient></defs>
+<rect width="640" height="420" rx="24" fill="url(#bg)"/>
+<circle cx="500" cy="96" r="92" fill="#F6C445" opacity="0.25"/>
+<circle cx="120" cy="300" r="54" fill="#F6C445" opacity="0.15"/>
+<ellipse cx="320" cy="352" rx="200" ry="14" fill="#5A3445" opacity="0.15"/>
+
+<path d="M250 60 L390 60 L376 274 Q374 284 364 284 L276 284 Q266 284 264 274 Z" fill="#FFE07A" stroke="#4A2335" stroke-width="5"/>
+<rect x="244" y="48" width="152" height="16" rx="3" fill="#F6A623" stroke="#4A2335" stroke-width="4"/>
+<path d="M270 282 L370 282 L370 330 Q370 344 356 344 L284 344 Q270 344 270 330 Z" fill="#F08A24" stroke="#4A2335" stroke-width="5"/>
+<circle cx="320" cy="140" r="26" fill="#F6A623"/>
+<path d="M320 100 L320 108 M320 172 L320 180 M280 140 L288 140 M352 140 L360 140 M292 112 L298 118 M342 162 L348 168 M348 112 L342 118 M298 162 L292 168" stroke="#F08A24" stroke-width="4" stroke-linecap="round"/>
+<text x="320" y="216" font-size="18" font-family="Arial, sans-serif" fill="#4A2335" font-weight="bold" text-anchor="middle">SUN SHIELD</text><text x="320" y="242" font-size="14" font-family="Arial, sans-serif" fill="#B5530F" font-weight="bold" text-anchor="middle">SPF50+ PA++++</text>
+<text x="320" y="264" font-size="12" font-family="Arial, sans-serif" fill="#7A3B57" font-weight="normal" text-anchor="middle">50 ml</text>
+<text x="32" y="48" font-size="26" font-family="Arial, sans-serif" fill="#5A1F3A" font-weight="bold">MP09</text>
+<text x="32" y="392" font-size="20" font-family="Arial, sans-serif" fill="#7A3B57">ROSIE BEAUTY DEMO</text>
+</svg>

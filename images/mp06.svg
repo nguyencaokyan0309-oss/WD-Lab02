@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="420" viewBox="0 0 640 420" role="img" aria-label="Son kem lì Velvet Matte">
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#FFF6F6"/><stop offset="1" stop-color="#F9DCDC"/></linearGradient></defs>
+<rect width="640" height="420" rx="24" fill="url(#bg)"/>
+<circle cx="500" cy="96" r="92" fill="#E05A5A" opacity="0.25"/>
+<circle cx="120" cy="300" r="54" fill="#E05A5A" opacity="0.15"/>
+<ellipse cx="320" cy="352" rx="200" ry="14" fill="#5A3445" opacity="0.15"/>
+
+<rect x="262" y="60" width="60" height="130" rx="10" fill="#2E2226" stroke="#4A2335" stroke-width="5"/>
+<text x="292" y="125" font-size="14" font-family="Arial, sans-serif" fill="#F3C6C6" font-weight="bold" text-anchor="middle" transform="rotate(-90 292 125)">VELVET</text>
+<rect x="266" y="188" width="52" height="156" rx="8" fill="#B8333F" stroke="#4A2335" stroke-width="5"/>
+<rect x="276" y="200" width="10" height="132" rx="5" fill="#FFFFFF" opacity="0.35"/>
+<path d="M360 300 Q400 230 470 236 Q520 240 520 280 Q510 312 460 300 Q410 290 372 318 Z" fill="#B8333F"/>
+<path d="M392 290 Q428 268 470 270" stroke="#E07A84" stroke-width="5" fill="none" stroke-linecap="round"/>
+<text x="450" y="350" font-size="13" font-family="Arial, sans-serif" fill="#7A3B57" font-weight="normal" text-anchor="middle">Đỏ gạch · Hồng đất · Cam cháy</text>
+<text x="32" y="48" font-size="26" font-family="Arial, sans-serif" fill="#5A1F3A" font-weight="bold">MP06</text>
+<text x="32" y="392" font-size="20" font-family="Arial, sans-serif" fill="#7A3B57">ROSIE BEAUTY DEMO</text>
+</svg>
