@@ -19,7 +19,7 @@ Khách hàng mục tiêu: sinh viên và nhân viên văn phòng 18–30 tuổi.
                  date, textarea; label for/id, name, required
   xac-nhan.html  Trang đích demo: KHÔNG lưu đơn hàng, giải thích các cặp name=value trên URL
 
-images/mp01.svg … mp10.svg: 10 ảnh SVG minh họa tự vẽ, lưu cục bộ.
+images/mp01.png … mp10.png: 10 ảnh AI mô phỏng chụp sản phẩm ROSIE BEAUTY, tạo bằng imagegen. Phong cách bao bì đen, trắng, vàng lấy cảm hứng từ Chanel. Không phải ảnh sản phẩm Chanel chính hãng. Ảnh SVG cũ được giữ lại để đối chiếu.
 
 KHÔNG dùng CSS, style=, <style>, <script> hay JavaScript.
 Màu sắc/bố cục dùng thuộc tính HTML legacy (bgcolor, text, link, vlink, alink, width,
