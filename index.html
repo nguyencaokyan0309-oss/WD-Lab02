@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ROSIE BEAUTY - website bán mỹ phẩm thực hành HTML thuần (WD-Lab02); không dùng CSS hoặc JavaScript.">
+  <meta name="author" content="Nguyễn Cao Kỳ Ân - 23110064">
+  <title>Trang chủ | ROSIE BEAUTY</title>
+</head>
+<body bgcolor="#FFF8FA" text="#3B1F2B" link="#A3245B" vlink="#6B3FA0" alink="#E8628F">
+<a href="#noi-dung">Bỏ qua menu, đến nội dung chính</a>
+
+<header>
+  <!-- Banner thương hiệu: bảng 1 hàng 1 ô, nền màu bằng bgcolor (HTML legacy) -->
+  <table width="100%" border="0" cellpadding="15" cellspacing="0" bgcolor="#8E2C5A">
+    <tr>
+      <td align="center">
+        <font color="#FFFFFF" size="7"><b>✿ ROSIE BEAUTY</b></font><br>
+        <font color="#FFD6E5" size="4">GLOW NATURALLY · SHINE DAILY</font><br>
+        <font color="#FFFFFF" size="2">Cửa hàng mỹ phẩm mẫu | HTML ONLY</font>
+      </td>
+    </tr>
+  </table>
+  <!-- Menu điều hướng giữa 5 trang -->
+  <table width="100%" border="0" cellpadding="12" cellspacing="0" bgcolor="#FBE3EC">
+    <tr>
+      <td align="center">
+        <nav aria-label="Điều hướng chính">
+        <a href="index.html" aria-current="page"><b>⌂ Trang chủ</b></a>
+        &nbsp;|&nbsp;
+        <a href="index.html#san-pham">◈ Sản phẩm</a>
+        &nbsp;|&nbsp;
+        <a href="chi-tiet.html">▤ Chi tiết</a>
+        &nbsp;|&nbsp;
+        <a href="bang-gia.html">▦ Bảng giá</a>
+        &nbsp;|&nbsp;
+        <a href="dat-hang.html">✉ Đặt hàng mẫu</a>
+        </nav>
+      </td>
+    </tr>
+  </table>
+</header>
+
+<main id="noi-dung">
+  <!-- Hero: bảng 2 ô (mô tả + ảnh nổi bật) -->
+  <table width="100%" border="0" cellpadding="16" cellspacing="5">
+    <tr>
+      <td bgcolor="#FDE7EF" width="65%" valign="middle">
+        <h1>🌸 RẠNG RỠ MỖI NGÀY, ĐẸP THEO CÁCH CỦA BẠN</h1>
+        <p><big>Khám phá <strong>10 sản phẩm mỹ phẩm</strong> cho chu trình chăm sóc da, trang điểm hằng ngày và bảo vệ da dưới nắng.</big></p>
+        <p>Dành cho <strong>sinh viên và nhân viên văn phòng 18–30 tuổi</strong> muốn chăm sóc bản thân đơn giản, hiệu quả, giá dễ chịu.</p>
+        <p><mark>★ Ưu đãi minh họa đến -22%</mark> &nbsp; ✓ Có hướng dẫn theo loại da &nbsp; ✓ Nhiều màu/tone lựa chọn</p>
+        <p><a href="#san-pham">◈ Xem ngay sản phẩm</a> &nbsp; <a href="bang-gia.html">▦ So sánh giá</a> &nbsp; <a href="dat-hang.html">✉ Đặt hàng mẫu</a></p>
+      </td>
+      <td bgcolor="#FFF4E6" valign="middle" align="center">
+        <img src="images/mp03.svg" width="305" alt="Serum Vitamin C Bright 15% - sản phẩm nổi bật của cửa hàng">
+        <p><font color="#A94718"><b>★ SẢN PHẨM NỔI BẬT: SERUM VITAMIN C</b></font></p>
+      </td>
+    </tr>
+  </table>
+
+  <!-- Ba ô tóm tắt giá trị -->
+  <table width="100%" border="0" cellpadding="13" cellspacing="6">
+    <tr>
+      <td bgcolor="#FCE4EC" width="33%" align="center">
+        <p><big><b>✓ 10 SẢN PHẨM</b></big></p>
+        <p>3 nhóm hàng, đủ ảnh, giá và mô tả</p>
+      </td>
+      <td bgcolor="#EDE7F6" width="33%" align="center">
+        <p><big><b>▦ BẢNG SO SÁNH</b></big></p>
+        <p>Rowspan, colspan, thead, tbody và tfoot</p>
+      </td>
+      <td bgcolor="#FFF3E0" width="33%" align="center">
+        <p><big><b>✉ FORM ĐẶT HÀNG</b></big></p>
+        <p>Thực hành input, label, select, radio, checkbox</p>
+      </td>
+    </tr>
+  </table>
+
+  <section id="san-pham">
+    <h2>◈ DANH MỤC SẢN PHẨM</h2>
+    <p>Nhấp vào ảnh để mở trang chi tiết. Ảnh minh họa SVG được lưu cục bộ trong thư mục <code>images/</code>.</p>
+    <p><b>Nhóm hàng:</b>
+      <a href="#nhom-cham-soc-da">Chăm sóc da (4)</a>
+      &nbsp;|&nbsp;
+      <a href="#nhom-trang-diem">Trang điểm (4)</a>
+      &nbsp;|&nbsp;
+      <a href="#nhom-chong-nang">Chống nắng &amp; cơ thể (2)</a>
+    </p>
+
+    <section id="nhom-cham-soc-da">
+      <h3>❀ CHĂM SÓC DA <small>(Skincare)</small></h3>
+      <p>Làm sạch, cân bằng, dưỡng sáng và dưỡng ẩm cho làn da khỏe.</p>
+      <table width="100%" border="0" cellpadding="12" cellspacing="8">
+      <tr>
+        <td width="25%" valign="top" align="center" bgcolor="#FDEEF3">
+          <article aria-labelledby="title-MP01">
+            <p><font color="#C2185B"><b>✦ BÁN CHẠY · MP01</b></font></p>
+            <a href="chi-tiet.html#MP01"><img src="images/mp01.svg" width="220" alt="Ảnh minh họa Sữa rửa mặt Gentle Foam"></a>
+            <h4 id="title-MP01">Sữa rửa mặt Gentle Foam</h4>
+            <p>Sữa rửa mặt tạo bọt · 150 ml</p>
+            <p><del>250.000 đ</del> &nbsp; <font color="#B0124F" size="4"><b>199.000 đ</b></font></p>
+            <p><mark>Tiết kiệm 51.000 đ (-20%)</mark></p>
+            <p><a href="chi-tiet.html#MP01">◉ Chi tiết</a> &nbsp;|&nbsp; <a href="dat-hang.html#MP01">✉ Đặt mua</a></p>
+          </article>
+        </td>
+        <td width="25%" valign="top" align="center" bgcolor="#FDEEF3">
+          <article aria-labelledby="title-MP02">
+            <p><font color="#C2185B"><b>✦ ƯU ĐÃI · MP02</b></font></p>
+            <a href="chi-tiet.html#MP02"><img src="images/mp02.svg" width="220" alt="Ảnh minh họa Toner hoa hồng Rose Water"></a>
+            <h4 id="title-MP02">Toner hoa hồng Rose Water</h4>
+            <p>Nước cân bằng da · 200 ml</p>
+            <p><del>320.000 đ</del> &nbsp; <font color="#B0124F" size="4"><b>279.000 đ</b></font></p>
+            <p><mark>Tiết kiệm 41.000 đ (-13%)</mark></p>
+            <p><a href="chi-tiet.html#MP02">◉ Chi tiết</a> &nbsp;|&nbsp; <a href="dat-hang.html#MP02">✉ Đặt mua</a></p>
+          </article>
+        </td>
+        <td width="25%" valign="top" align="center" bgcolor="#FDEEF3">
+          <article aria-labelledby="title-MP03">
+            <p><font color="#C2185B"><b>✦ BÁN CHẠY · MP03</b></font></p>
+            <a href="chi-tiet.html#MP03"><img src="images/mp03.svg" width="220" alt="Ảnh minh họa Serum Vitamin C Bright 15%"></a>
+            <h4 id="title-MP03">Serum Vitamin C Bright 15%</h4>
+            <p>Tinh chất dưỡng sáng · 30 ml</p>
+            <p><del>590.000 đ</del> &nbsp; <font color="#B0124F" size="4"><b>459.000 đ</b></font></p>
+            <p><mark>Tiết kiệm 131.000 đ (-22%)</mark></p>
+            <p><a href="chi-tiet.html#MP03">◉ Chi tiết</a> &nbsp;|&nbsp; <a href="dat-hang.html#MP03">✉ Đặt mua</a></p>
+          </article>
+        </td>
+        <td width="25%" valign="top" align="center" bgcolor="#FDEEF3">
+          <article aria-labelledby="title-MP04">
+            <p><font color="#C2185B"><b>✦ MỚI · MP04</b></font></p>
+            <a href="chi-tiet.html#MP04"><img src="images/mp04.svg" width="220" alt="Ảnh minh họa Kem dưỡng ẩm Hydra Gel"></a>
+            <h4 id="title-MP04">Kem dưỡng ẩm Hydra Gel</h4>
+            <p>Kem dưỡng dạng gel · 50 ml</p>
+            <p><del>420.000 đ</del> &nbsp; <font color="#B0124F" size="4"><b>349.000 đ</b></font></p>
+            <p><mark>Tiết kiệm 71.000 đ (-17%)</mark></p>
+            <p><a href="chi-tiet.html#MP04">◉ Chi tiết</a> &nbsp;|&nbsp; <a href="dat-hang.html#MP04">✉ Đặt mua</a></p>
+          </article>
+        </td>
+      </tr>
+      </table>
+    </section>
+
+    <section id="nhom-trang-diem">
+      <h3>❀ TRANG ĐIỂM <small>(Makeup)</small></h3>
+      <p>Lớp nền, son môi và trang điểm mắt cho mọi dịp.</p>
+      <table width="100%" border="0" cellpadding="12" cellspacing="8">
+      <tr>
+        <td width="25%" valign="top" align="center" bgcolor="#FFF5EC">
+          <article aria-labelledby="title-MP05">
+            <p><font color="#C2185B"><b>✦ BÁN CHẠY · MP05</b></font></p>
+            <a href="chi-tiet.html#MP05"><img src="images/mp05.svg" width="220" alt="Ảnh minh họa Cushion Glow Cover SPF35"></a>
+            <h4 id="title-MP05">Cushion Glow Cover SPF35</h4>
+            <p>Phấn nước · 15 g (kèm lõi thay thế)</p>
+            <p><del>550.000 đ</del> &nbsp; <font color="#B0124F" size="4"><b>449.000 đ</b></font></p>
+            <p><mark>Tiết kiệm 101.000 đ (-18%)</mark></p>
+            <p><a href="chi-tiet.html#MP05">◉ Chi tiết</a> &nbsp;|&nbsp; <a href="dat-hang.html#MP05">✉ Đặt mua</a></p>
+          </article>
+        </td>
+        <td width="25%" valign="top" align="center" bgcolor="#FFF5EC">
+          <article aria-labelledby="title-MP06">
+            <p><font color="#C2185B"><b>✦ HOT · MP06</b></font></p>
+            <a href="chi-tiet.html#MP06"><img src="images/mp06.svg" width="220" alt="Ảnh minh họa Son kem lì Velvet Matte"></a>
+            <h4 id="title-MP06">Son kem lì Velvet Matte</h4>
+            <p>Son kem · 3,5 g</p>
+            <p><del>280.000 đ</del> &nbsp; <font color="#B0124F" size="4"><b>229.000 đ</b></font></p>
+            <p><mark>Tiết kiệm 51.000 đ (-18%)</mark></p>
+            <p><a href="chi-tiet.html#MP06">◉ Chi tiết</a> &nbsp;|&nbsp; <a href="dat-hang.html#MP06">✉ Đặt mua</a></p>
+          </article>
+        </td>
+        <td width="25%" valign="top" align="center" bgcolor="#FFF5EC">
+          <article aria-labelledby="title-MP07">
+            <p><font color="#C2185B"><b>✦ ƯU ĐÃI · MP07</b></font></p>
+            <a href="chi-tiet.html#MP07"><img src="images/mp07.svg" width="220" alt="Ảnh minh họa Mascara Long Lash Waterproof"></a>
+            <h4 id="title-MP07">Mascara Long Lash Waterproof</h4>
+            <p>Mascara · 8 ml</p>
+            <p><del>250.000 đ</del> &nbsp; <font color="#B0124F" size="4"><b>209.000 đ</b></font></p>
+            <p><mark>Tiết kiệm 41.000 đ (-16%)</mark></p>
+            <p><a href="chi-tiet.html#MP07">◉ Chi tiết</a> &nbsp;|&nbsp; <a href="dat-hang.html#MP07">✉ Đặt mua</a></p>
+          </article>
+        </td>
+        <td width="25%" valign="top" align="center" bgcolor="#FFF5EC">
+          <article aria-labelledby="title-MP08">
+            <p><font color="#C2185B"><b>✦ MỚI · MP08</b></font></p>
+            <a href="chi-tiet.html#MP08"><img src="images/mp08.svg" width="220" alt="Ảnh minh họa Bảng phấn mắt Sunset 9 ô"></a>
+            <h4 id="title-MP08">Bảng phấn mắt Sunset 9 ô</h4>
+            <p>Phấn mắt · 9 × 1,2 g</p>
+            <p><del>390.000 đ</del> &nbsp; <font color="#B0124F" size="4"><b>319.000 đ</b></font></p>
+            <p><mark>Tiết kiệm 71.000 đ (-18%)</mark></p>
+            <p><a href="chi-tiet.html#MP08">◉ Chi tiết</a> &nbsp;|&nbsp; <a href="dat-hang.html#MP08">✉ Đặt mua</a></p>
+          </article>
+        </td>
+      </tr>
+      </table>
+    </section>
+
+    <section id="nhom-chong-nang">
+      <h3>❀ CHỐNG NẮNG &AMP; CƠ THỂ <small>(Sun &amp; Body)</small></h3>
+      <p>Bảo vệ da trước tia UV và dưỡng da toàn thân.</p>
+      <table width="100%" border="0" cellpadding="12" cellspacing="8">
+      <tr>
+        <td width="25%" valign="top" align="center" bgcolor="#F1F7FD">
+          <article aria-labelledby="title-MP09">
+            <p><font color="#C2185B"><b>✦ BÁN CHẠY · MP09</b></font></p>
+            <a href="chi-tiet.html#MP09"><img src="images/mp09.svg" width="220" alt="Ảnh minh họa Kem chống nắng Sun Shield SPF50+"></a>
+            <h4 id="title-MP09">Kem chống nắng Sun Shield SPF50+</h4>
+            <p>Kem chống nắng · 50 ml</p>
+            <p><del>380.000 đ</del> &nbsp; <font color="#B0124F" size="4"><b>299.000 đ</b></font></p>
+            <p><mark>Tiết kiệm 81.000 đ (-21%)</mark></p>
+            <p><a href="chi-tiet.html#MP09">◉ Chi tiết</a> &nbsp;|&nbsp; <a href="dat-hang.html#MP09">✉ Đặt mua</a></p>
+          </article>
+        </td>
+        <td width="25%" valign="top" align="center" bgcolor="#F1F7FD">
+          <article aria-labelledby="title-MP10">
+            <p><font color="#C2185B"><b>✦ ƯU ĐÃI · MP10</b></font></p>
+            <a href="chi-tiet.html#MP10"><img src="images/mp10.svg" width="220" alt="Ảnh minh họa Sữa dưỡng thể Body Glow"></a>
+            <h4 id="title-MP10">Sữa dưỡng thể Body Glow</h4>
+            <p>Sữa dưỡng thể · 300 ml</p>
+            <p><del>350.000 đ</del> &nbsp; <font color="#B0124F" size="4"><b>289.000 đ</b></font></p>
+            <p><mark>Tiết kiệm 61.000 đ (-17%)</mark></p>
+            <p><a href="chi-tiet.html#MP10">◉ Chi tiết</a> &nbsp;|&nbsp; <a href="dat-hang.html#MP10">✉ Đặt mua</a></p>
+          </article>
+        </td>
+        <td colspan="2" width="50%" align="center" valign="middle" bgcolor="#F8E1EA">
+          <h4>♡ ĐÃ TÌM ĐƯỢC SẢN PHẨM ƯNG Ý?</h4>
+          <p>Hãy xem chi tiết, đối chiếu bảng giá và thử điền form đặt hàng mẫu.</p>
+          <p><a href="dat-hang.html">✉ Mở form đặt hàng</a> &nbsp;|&nbsp; <a href="bang-gia.html">▦ Xem bảng giá</a></p>
+        </td>
+      </tr>
+      </table>
+    </section>
+  </section>
+
+  <section id="chinh-sach">
+    <h2>☑ CHÍNH SÁCH MUA HÀNG <small>(nội dung demo)</small></h2>
+    <table width="100%" border="0" cellpadding="14" cellspacing="6">
+      <tr>
+        <td bgcolor="#FCE4EC" width="25%" valign="top">
+          <h3>🚚 Giao hàng</h3>
+          <p>Miễn phí giao hàng cho đơn từ 499.000 đ; giao nhanh nội thành 2 giờ.</p>
+        </td>
+        <td bgcolor="#EDE7F6" width="25%" valign="top">
+          <h3>↺ Đổi trả</h3>
+          <p>Đổi trả trong 7 ngày nếu sản phẩm còn nguyên tem và chưa mở nắp.</p>
+        </td>
+        <td bgcolor="#FFF3E0" width="25%" valign="top">
+          <h3>🎁 Khuyến mãi</h3>
+          <p>Tặng mẫu thử và gói quà miễn phí; giá ưu đãi chỉ mang tính minh họa.</p>
+        </td>
+        <td bgcolor="#E8F5E9" width="25%" valign="top">
+          <h3>☎ Liên hệ</h3>
+          <p>Hotline (demo): 0900 000 000<br>Email (demo): hotro@rosiebeauty.demo</p>
+        </td>
+      </tr>
+    </table>
+  </section>
+
+  <table width="100%" border="0" cellpadding="16" cellspacing="0" bgcolor="#FFF2DA">
+    <tr>
+      <td>
+        <h2>➤ Quy trình đặt hàng minh họa</h2>
+        <ol>
+          <li>Xem sản phẩm ở <a href="#san-pham">danh mục</a>.</li>
+          <li>Đọc thông số tại trang <a href="chi-tiet.html">chi tiết</a>.</li>
+          <li>Đối chiếu giá tại <a href="bang-gia.html">bảng giá</a>.</li>
+          <li>Điền <a href="dat-hang.html">form đặt hàng</a> và xem trang kết quả demo (không lưu đơn hàng).</li>
+        </ol>
+      </td>
+    </tr>
+  </table>
+</main>
+
+<footer>
+  <hr>
+  <table width="100%" border="0" cellpadding="16" cellspacing="0" bgcolor="#8E2C5A">
+    <tr>
+      <td align="center">
+        <font color="#FFFFFF"><b>✿ ROSIE BEAUTY</b> · 10 sản phẩm demo · © 2026</font><br>
+        <font color="#FFD6E5">Hotline (demo): 0900 000 000 · Email (demo): hotro@rosiebeauty.demo · Địa chỉ (demo): 227 Nguyễn Văn Cừ, Q.5, TP.HCM</font><br>
+        <font color="#FFD6E5">Dữ liệu, giá bán và đơn hàng đều mang tính minh họa phục vụ học tập.</font><br>
+        <font color="#FFFFFF" size="2">Sinh viên thực hiện: Nguyễn Cao Kỳ Ân – 23110064 – 23TTH1</font><br>
+        <a href="index.html"><font color="#FFFFFF">↥ Quay lại trang chủ</font></a>
+      </td>
+    </tr>
+  </table>
+</footer>
+</body>
+</html>
