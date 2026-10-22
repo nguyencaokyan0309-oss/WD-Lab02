@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ROSIE BEAUTY - website bán mỹ phẩm thực hành HTML thuần (WD-Lab02); không dùng CSS hoặc JavaScript.">
+  <meta name="author" content="Nguyễn Cao Kỳ Ân - 23110064">
+  <title>Trang kết quả thực hành | ROSIE BEAUTY</title>
+</head>
+<body bgcolor="#FFF8FA" text="#3B1F2B" link="#A3245B" vlink="#6B3FA0" alink="#E8628F">
+<a href="#noi-dung">Bỏ qua menu, đến nội dung chính</a>
+
+<header>
+  <!-- Banner thương hiệu: bảng 1 hàng 1 ô, nền màu bằng bgcolor (HTML legacy) -->
+  <table width="100%" border="0" cellpadding="15" cellspacing="0" bgcolor="#8E2C5A">
+    <tr>
+      <td align="center">
+        <font color="#FFFFFF" size="7"><b>✿ ROSIE BEAUTY</b></font><br>
+        <font color="#FFD6E5" size="4">GLOW NATURALLY · SHINE DAILY</font><br>
+        <font color="#FFFFFF" size="2">Cửa hàng mỹ phẩm mẫu | HTML ONLY</font>
+      </td>
+    </tr>
+  </table>
+  <!-- Menu điều hướng giữa 5 trang -->
+  <table width="100%" border="0" cellpadding="12" cellspacing="0" bgcolor="#FBE3EC">
+    <tr>
+      <td align="center">
+        <nav aria-label="Điều hướng chính">
+        <a href="index.html">⌂ Trang chủ</a>
+        &nbsp;|&nbsp;
+        <a href="index.html#san-pham" aria-current="page"><b>◈ Sản phẩm</b></a>
+        &nbsp;|&nbsp;
+        <a href="chi-tiet.html">▤ Chi tiết</a>
+        &nbsp;|&nbsp;
+        <a href="bang-gia.html">▦ Bảng giá</a>
+        &nbsp;|&nbsp;
+        <a href="dat-hang.html">✉ Đặt hàng mẫu</a>
+        </nav>
+      </td>
+    </tr>
+  </table>
+</header>
+
+<main id="noi-dung">
+  <table width="100%" border="0" cellpadding="16" cellspacing="0" bgcolor="#E0F3E6">
+    <tr>
+      <td>
+        <h1>✓ ĐÃ ĐẾN TRANG KẾT QUẢ DEMO</h1>
+        <p><strong>Đây không phải xác nhận mua hàng:</strong> không có dữ liệu nào được lưu, không có thanh toán và không gửi email.</p>
+      </td>
+    </tr>
+  </table>
+
+  <section>
+    <h2>Cách đọc dữ liệu form trên thanh địa chỉ</h2>
+    <p>Form dùng <code>method="get"</code> nên dữ liệu nằm sau dấu <code>?</code> trong URL dưới dạng <code>name=value</code>, nối với nhau bằng <code>&amp;</code>. Trang HTML tĩnh không tự đọc hay hiển thị các giá trị này.</p>
+    <table border="1" cellpadding="8" cellspacing="0" width="100%" bgcolor="#FFFFFF">
+      <caption><b>Các khóa (name) mà form đặt hàng gửi đi</b></caption>
+      <thead>
+        <tr bgcolor="#8E2C5A">
+          <th scope="col"><font color="white">name</font></th>
+          <th scope="col"><font color="white">Ý nghĩa</font></th>
+          <th scope="col"><font color="white">Ví dụ value</font></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><th scope="row">hoTen</th><td>Họ tên người đặt</td><td>Nguyen+Thi+A</td></tr>
+        <tr><th scope="row">email</th><td>Email liên hệ</td><td>demo%40example.com</td></tr>
+        <tr><th scope="row">soDienThoai</th><td>Số điện thoại</td><td>0900000000</td></tr>
+        <tr><th scope="row">tinhThanh</th><td>Tỉnh / thành phố</td><td>hcm</td></tr>
+        <tr><th scope="row">maSanPham</th><td>Mã SKU sản phẩm</td><td>MP03</td></tr>
+        <tr><th scope="row">phienBan</th><td>Màu / tone / phiên bản</td><td>MP06-hong-dat</td></tr>
+        <tr><th scope="row">soLuong</th><td>Số lượng</td><td>2</td></tr>
+        <tr><th scope="row">loaiDa</th><td>Loại da (radio – chỉ 1 giá trị)</td><td>da-hon-hop</td></tr>
+        <tr><th scope="row">giaoHang</th><td>Hình thức nhận hàng (radio)</td><td>giao-nhanh</td></tr>
+        <tr><th scope="row">dichVu</th><td>Dịch vụ thêm (checkbox – có thể lặp nhiều lần)</td><td>goi-qua &amp; mau-thu</td></tr>
+        <tr><th scope="row">ngayNhan</th><td>Ngày muốn nhận</td><td>2026-10-30</td></tr>
+        <tr><th scope="row">ghiChu</th><td>Ghi chú</td><td>tu+van+tone</td></tr>
+        <tr><th scope="row">dongY</th><td>Xác nhận đây là form thực hành</td><td>yes</td></tr>
+      </tbody>
+    </table>
+    <ol>
+      <li>Quan sát thanh địa chỉ URL để xác định các cặp <code>name=value</code>.</li>
+      <li>So sánh tên khóa với thuộc tính <code>name</code> trong code của <code>dat-hang.html</code>.</li>
+      <li>Không gửi dữ liệu cá nhân thật vào form GET này.</li>
+    </ol>
+    <p><a href="dat-hang.html">↩ Trở lại form</a> &nbsp;|&nbsp; <a href="index.html">⌂ Về trang chủ</a></p>
+  </section>
+</main>
+
+<footer>
+  <hr>
+  <table width="100%" border="0" cellpadding="16" cellspacing="0" bgcolor="#8E2C5A">
+    <tr>
+      <td align="center">
+        <font color="#FFFFFF"><b>✿ ROSIE BEAUTY</b> · 10 sản phẩm demo · © 2026</font><br>
+        <font color="#FFD6E5">Hotline (demo): 0900 000 000 · Email (demo): hotro@rosiebeauty.demo · Địa chỉ (demo): 227 Nguyễn Văn Cừ, Q.5, TP.HCM</font><br>
+        <font color="#FFD6E5">Dữ liệu, giá bán và đơn hàng đều mang tính minh họa phục vụ học tập.</font><br>
+        <font color="#FFFFFF" size="2">Sinh viên thực hiện: Nguyễn Cao Kỳ Ân – 23110064 – 23TTH1</font><br>
+        <a href="index.html"><font color="#FFFFFF">↥ Quay lại trang chủ</font></a>
+      </td>
+    </tr>
+  </table>
+</footer>
+</body>
+</html>
