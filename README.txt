@@ -30,4 +30,4 @@ Số tiền tổng trong bảng giá được nhập thủ công; HTML không t�
 Toàn bộ giá, chính sách, hotline, email và địa chỉ đều là dữ liệu demo.
 
 Công cụ hỗ trợ: trong quá trình làm bài, sinh viên có nhờ Claude (Anthropic) hỗ trợ
-chỉnh sửa code HTML, kiểm tra lỗi và soạn báo cáo.
+chỉnh sửa code HTML.
