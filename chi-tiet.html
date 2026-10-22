@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ROSIE BEAUTY - website bán mỹ phẩm thực hành HTML thuần (WD-Lab02); không dùng CSS hoặc JavaScript.">
+  <meta name="author" content="Nguyễn Cao Kỳ Ân - 23110064">
+  <title>Chi tiết sản phẩm | ROSIE BEAUTY</title>
+</head>
+<body bgcolor="#FFF8FA" text="#3B1F2B" link="#A3245B" vlink="#6B3FA0" alink="#E8628F">
+<a href="#noi-dung">Bỏ qua menu, đến nội dung chính</a>
+
+<header>
+  <!-- Banner thương hiệu: bảng 1 hàng 1 ô, nền màu bằng bgcolor (HTML legacy) -->
+  <table width="100%" border="0" cellpadding="15" cellspacing="0" bgcolor="#8E2C5A">
+    <tr>
+      <td align="center">
+        <font color="#FFFFFF" size="7"><b>✿ ROSIE BEAUTY</b></font><br>
+        <font color="#FFD6E5" size="4">GLOW NATURALLY · SHINE DAILY</font><br>
+        <font color="#FFFFFF" size="2">Cửa hàng mỹ phẩm mẫu | HTML ONLY</font>
+      </td>
+    </tr>
+  </table>
+  <!-- Menu điều hướng giữa 5 trang -->
+  <table width="100%" border="0" cellpadding="12" cellspacing="0" bgcolor="#FBE3EC">
+    <tr>
+      <td align="center">
+        <nav aria-label="Điều hướng chính">
+        <a href="index.html">⌂ Trang chủ</a>
+        &nbsp;|&nbsp;
+        <a href="index.html#san-pham">◈ Sản phẩm</a>
+        &nbsp;|&nbsp;
+        <a href="chi-tiet.html" aria-current="page"><b>▤ Chi tiết</b></a>
+        &nbsp;|&nbsp;
+        <a href="bang-gia.html">▦ Bảng giá</a>
+        &nbsp;|&nbsp;
+        <a href="dat-hang.html">✉ Đặt hàng mẫu</a>
+        </nav>
+      </td>
+    </tr>
+  </table>
+</header>
+
+<main id="noi-dung">
+  <table width="100%" border="0" cellpadding="16" cellspacing="0" bgcolor="#FDE7EF">
+    <tr>
+      <td>
+        <h1>◉ CHI TIẾT 10 SẢN PHẨM</h1>
+        <p>Mỗi sản phẩm là một <code>section</code> có <code>id</code> trùng mã SKU, nhận liên kết fragment như <code>chi-tiet.html#MP01</code>.</p>
+      </td>
+    </tr>
+  </table>
+
+  <nav id="muc-luc" aria-label="Mục lục sản phẩm">
+    <h2>☰ Mục lục nhanh</h2>
+    <table width="100%" border="1" cellpadding="8" cellspacing="0" bgcolor="#FFFFFF">
+      <tr>
+        <th scope="row" bgcolor="#FBE3EC" width="22%" align="left">Chăm sóc da</th>
+        <td><a href="#MP01">MP01 – Sữa rửa mặt Gentle Foam</a> &nbsp;·&nbsp; <a href="#MP02">MP02 – Toner hoa hồng Rose Water</a> &nbsp;·&nbsp; <a href="#MP03">MP03 – Serum Vitamin C Bright 15%</a> &nbsp;·&nbsp; <a href="#MP04">MP04 – Kem dưỡng ẩm Hydra Gel</a></td>
+      </tr>
+      <tr>
+        <th scope="row" bgcolor="#FBE3EC" width="22%" align="left">Trang điểm</th>
+        <td><a href="#MP05">MP05 – Cushion Glow Cover SPF35</a> &nbsp;·&nbsp; <a href="#MP06">MP06 – Son kem lì Velvet Matte</a> &nbsp;·&nbsp; <a href="#MP07">MP07 – Mascara Long Lash Waterproof</a> &nbsp;·&nbsp; <a href="#MP08">MP08 – Bảng phấn mắt Sunset 9 ô</a></td>
+      </tr>
+      <tr>
+        <th scope="row" bgcolor="#FBE3EC" width="22%" align="left">Chống nắng &amp; cơ thể</th>
+        <td><a href="#MP09">MP09 – Kem chống nắng Sun Shield SPF50+</a> &nbsp;·&nbsp; <a href="#MP10">MP10 – Sữa dưỡng thể Body Glow</a></td>
+      </tr>
+    </table>
+  </nav>
+
+  <hr>
+  <section id="MP01" aria-labelledby="h-MP01">
+    <table width="100%" border="1" cellpadding="18" cellspacing="2" bgcolor="#FDEEF3">
+      <tr>
+        <td width="40%" align="center" valign="middle">
+          <figure>
+            <img src="images/mp01.svg" width="360" alt="Tuýp sữa rửa mặt Gentle Foam màu trắng hồng, nắp hồng">
+            <figcaption><small>Hình MP01: Sữa rửa mặt Gentle Foam (ảnh minh họa)</small></figcaption>
+          </figure>
+        </td>
+        <td valign="top">
+          <h2 id="h-MP01">★ Sữa rửa mặt Gentle Foam</h2>
+          <p><font color="#C2185B"><b>✦ BÁN CHẠY</b></font> &nbsp; <strong>Mã SKU:</strong> MP01 &nbsp; <strong>Nhóm:</strong> Chăm sóc da</p>
+          <p><del>250.000 đ</del> &nbsp; <font size="5" color="#B0124F"><b>199.000 đ</b></font></p>
+          <p><mark>Tiết kiệm: 51.000 đ (-20%)</mark></p>
+          <p>Bọt mịn làm sạch bụi bẩn và dầu thừa, không gây khô căng sau khi rửa mặt.</p>
+          <table border="1" cellpadding="6" cellspacing="0" width="100%" bgcolor="#FFFFFF">
+            <caption><b>Thông số MP01</b></caption>
+            <tr><th scope="row" align="left" width="35%">Loại sản phẩm</th><td>Sữa rửa mặt tạo bọt</td></tr>
+            <tr><th scope="row" align="left">Dung tích / Trọng lượng</th><td>150 ml</td></tr>
+            <tr><th scope="row" align="left">Màu sắc</th><td>Trắng sữa</td></tr>
+            <tr><th scope="row" align="left">Phiên bản</th><td>100 ml, 150 ml</td></tr>
+            <tr><th scope="row" align="left">Phù hợp</th><td>Da dầu, da hỗn hợp</td></tr>
+            <tr><th scope="row" align="left">Thành phần nổi bật</th><td>Amino acid, chiết xuất trà xanh, pH 5.5</td></tr>
+          </table>
+          <p><strong>Cách dùng:</strong> Tạo bọt với nước, massage 30–60 giây rồi rửa sạch; dùng buổi sáng và tối.</p>
+          <p><small>Hình ảnh và dữ liệu sản phẩm chỉ dùng cho thực hành.</small></p>
+          <p><a href="dat-hang.html#MP01">✉ Đặt hàng mẫu</a> &nbsp;·&nbsp; <a href="bang-gia.html">▦ Bảng giá</a> &nbsp;·&nbsp; <a href="index.html#nhom-cham-soc-da">⌂ Về danh mục</a> &nbsp;·&nbsp; <a href="#muc-luc">↑ Mục lục</a></p>
+        </td>
+      </tr>
+    </table>
+  </section>
+
+  <hr>
+  <section id="MP02" aria-labelledby="h-MP02">
+    <table width="100%" border="1" cellpadding="18" cellspacing="2" bgcolor="#FFF5EC">
+      <tr>
+        <td width="40%" align="center" valign="middle">
+          <figure>
+            <img src="images/mp02.svg" width="360" alt="Chai toner hoa hồng màu hồng, nắp đỏ, bên cạnh có bông hồng">
+            <figcaption><small>Hình MP02: Toner hoa hồng Rose Water (ảnh minh họa)</small></figcaption>
+          </figure>
+        </td>
+        <td valign="top">
+          <h2 id="h-MP02">★ Toner hoa hồng Rose Water</h2>
+          <p><font color="#C2185B"><b>✦ ƯU ĐÃI</b></font> &nbsp; <strong>Mã SKU:</strong> MP02 &nbsp; <strong>Nhóm:</strong> Chăm sóc da</p>
+          <p><del>320.000 đ</del> &nbsp; <font size="5" color="#B0124F"><b>279.000 đ</b></font></p>
+          <p><mark>Tiết kiệm: 41.000 đ (-13%)</mark></p>
+          <p>Cân bằng độ pH, cấp ẩm nhẹ và làm dịu da ngay sau bước làm sạch.</p>
+          <table border="1" cellpadding="6" cellspacing="0" width="100%" bgcolor="#FFFFFF">
+            <caption><b>Thông số MP02</b></caption>
+            <tr><th scope="row" align="left" width="35%">Loại sản phẩm</th><td>Nước cân bằng da</td></tr>
+            <tr><th scope="row" align="left">Dung tích / Trọng lượng</th><td>200 ml</td></tr>
+            <tr><th scope="row" align="left">Màu sắc</th><td>Hồng nhạt trong suốt</td></tr>
+            <tr><th scope="row" align="left">Phiên bản</th><td>200 ml (không cồn)</td></tr>
+            <tr><th scope="row" align="left">Phù hợp</th><td>Mọi loại da, kể cả da nhạy cảm</td></tr>
+            <tr><th scope="row" align="left">Thành phần nổi bật</th><td>Nước cất hoa hồng, Hyaluronic Acid, Panthenol</td></tr>
+          </table>
+          <p><strong>Cách dùng:</strong> Thấm ra bông tẩy trang hoặc đổ ra tay và vỗ nhẹ lên mặt.</p>
+          <p><small>Hình ảnh và dữ liệu sản phẩm chỉ dùng cho thực hành.</small></p>
+          <p><a href="dat-hang.html#MP02">✉ Đặt hàng mẫu</a> &nbsp;·&nbsp; <a href="bang-gia.html">▦ Bảng giá</a> &nbsp;·&nbsp; <a href="index.html#nhom-cham-soc-da">⌂ Về danh mục</a> &nbsp;·&nbsp; <a href="#muc-luc">↑ Mục lục</a></p>
+        </td>
+      </tr>
+    </table>
+  </section>
+
+  <hr>
+  <section id="MP03" aria-labelledby="h-MP03">
+    <table width="100%" border="1" cellpadding="18" cellspacing="2" bgcolor="#F1F7FD">
+      <tr>
+        <td width="40%" align="center" valign="middle">
+          <figure>
+            <img src="images/mp03.svg" width="360" alt="Chai serum Vitamin C màu cam có ống nhỏ giọt">
+            <figcaption><small>Hình MP03: Serum Vitamin C Bright 15% (ảnh minh họa)</small></figcaption>
+          </figure>
+        </td>
+        <td valign="top">
+          <h2 id="h-MP03">★ Serum Vitamin C Bright 15%</h2>
+          <p><font color="#C2185B"><b>✦ BÁN CHẠY</b></font> &nbsp; <strong>Mã SKU:</strong> MP03 &nbsp; <strong>Nhóm:</strong> Chăm sóc da</p>
+          <p><del>590.000 đ</del> &nbsp; <font size="5" color="#B0124F"><b>459.000 đ</b></font></p>
+          <p><mark>Tiết kiệm: 131.000 đ (-22%)</mark></p>
+          <p>Hỗ trợ làm đều màu da, mờ vết thâm và chống oxy hóa.</p>
+          <table border="1" cellpadding="6" cellspacing="0" width="100%" bgcolor="#FFFFFF">
+            <caption><b>Thông số MP03</b></caption>
+            <tr><th scope="row" align="left" width="35%">Loại sản phẩm</th><td>Tinh chất dưỡng sáng</td></tr>
+            <tr><th scope="row" align="left">Dung tích / Trọng lượng</th><td>30 ml</td></tr>
+            <tr><th scope="row" align="left">Màu sắc</th><td>Vàng cam (chai thủy tinh tối màu)</td></tr>
+            <tr><th scope="row" align="left">Phiên bản</th><td>30 ml – nồng độ 15%</td></tr>
+            <tr><th scope="row" align="left">Phù hợp</th><td>Da xỉn màu, da có vết thâm</td></tr>
+            <tr><th scope="row" align="left">Thành phần nổi bật</th><td>Vitamin C 15%, Vitamin E, Ferulic Acid</td></tr>
+          </table>
+          <p><strong>Cách dùng:</strong> Dùng 3–4 giọt vào buổi sáng sau toner; luôn dùng kèm kem chống nắng.</p>
+          <p><small>Hình ảnh và dữ liệu sản phẩm chỉ dùng cho thực hành.</small></p>
+          <p><a href="dat-hang.html#MP03">✉ Đặt hàng mẫu</a> &nbsp;·&nbsp; <a href="bang-gia.html">▦ Bảng giá</a> &nbsp;·&nbsp; <a href="index.html#nhom-cham-soc-da">⌂ Về danh mục</a> &nbsp;·&nbsp; <a href="#muc-luc">↑ Mục lục</a></p>
+        </td>
+      </tr>
+    </table>
+  </section>
+
+  <hr>
+  <section id="MP04" aria-labelledby="h-MP04">
+    <table width="100%" border="1" cellpadding="18" cellspacing="2" bgcolor="#F3FAF1">
+      <tr>
+        <td width="40%" align="center" valign="middle">
+          <figure>
+            <img src="images/mp04.svg" width="360" alt="Hũ kem dưỡng ẩm Hydra Gel nắp xanh dương">
+            <figcaption><small>Hình MP04: Kem dưỡng ẩm Hydra Gel (ảnh minh họa)</small></figcaption>
+          </figure>
+        </td>
+        <td valign="top">
+          <h2 id="h-MP04">★ Kem dưỡng ẩm Hydra Gel</h2>
+          <p><font color="#C2185B"><b>✦ MỚI</b></font> &nbsp; <strong>Mã SKU:</strong> MP04 &nbsp; <strong>Nhóm:</strong> Chăm sóc da</p>
+          <p><del>420.000 đ</del> &nbsp; <font size="5" color="#B0124F"><b>349.000 đ</b></font></p>
+          <p><mark>Tiết kiệm: 71.000 đ (-17%)</mark></p>
+          <p>Kết cấu gel mỏng nhẹ, thấm nhanh, khóa ẩm đến 24 giờ mà không bết dính.</p>
+          <table border="1" cellpadding="6" cellspacing="0" width="100%" bgcolor="#FFFFFF">
+            <caption><b>Thông số MP04</b></caption>
+            <tr><th scope="row" align="left" width="35%">Loại sản phẩm</th><td>Kem dưỡng dạng gel</td></tr>
+            <tr><th scope="row" align="left">Dung tích / Trọng lượng</th><td>50 ml</td></tr>
+            <tr><th scope="row" align="left">Màu sắc</th><td>Xanh trong</td></tr>
+            <tr><th scope="row" align="left">Phiên bản</th><td>50 ml</td></tr>
+            <tr><th scope="row" align="left">Phù hợp</th><td>Da dầu, da hỗn hợp, da thiếu nước</td></tr>
+            <tr><th scope="row" align="left">Thành phần nổi bật</th><td>Hyaluronic Acid, Ceramide, chiết xuất nha đam</td></tr>
+          </table>
+          <p><strong>Cách dùng:</strong> Lấy một lượng bằng hạt đậu, thoa đều sau serum vào buổi sáng và tối.</p>
+          <p><small>Hình ảnh và dữ liệu sản phẩm chỉ dùng cho thực hành.</small></p>
+          <p><a href="dat-hang.html#MP04">✉ Đặt hàng mẫu</a> &nbsp;·&nbsp; <a href="bang-gia.html">▦ Bảng giá</a> &nbsp;·&nbsp; <a href="index.html#nhom-cham-soc-da">⌂ Về danh mục</a> &nbsp;·&nbsp; <a href="#muc-luc">↑ Mục lục</a></p>
+        </td>
+      </tr>
+    </table>
+  </section>
+
+  <hr>
+  <section id="MP05" aria-labelledby="h-MP05">
+    <table width="100%" border="1" cellpadding="18" cellspacing="2" bgcolor="#FDF1EB">
+      <tr>
+        <td width="40%" align="center" valign="middle">
+          <figure>
+            <img src="images/mp05.svg" width="360" alt="Hộp phấn nước cushion màu be đang mở nắp, có gương và bông phấn">
+            <figcaption><small>Hình MP05: Cushion Glow Cover SPF35 (ảnh minh họa)</small></figcaption>
+          </figure>
+        </td>
+        <td valign="top">
+          <h2 id="h-MP05">★ Cushion Glow Cover SPF35</h2>
+          <p><font color="#C2185B"><b>✦ BÁN CHẠY</b></font> &nbsp; <strong>Mã SKU:</strong> MP05 &nbsp; <strong>Nhóm:</strong> Trang điểm</p>
+          <p><del>550.000 đ</del> &nbsp; <font size="5" color="#B0124F"><b>449.000 đ</b></font></p>
+          <p><mark>Tiết kiệm: 101.000 đ (-18%)</mark></p>
+          <p>Độ che phủ vừa, lớp nền căng bóng tự nhiên, phù hợp trang điểm hằng ngày.</p>
+          <table border="1" cellpadding="6" cellspacing="0" width="100%" bgcolor="#FFFFFF">
+            <caption><b>Thông số MP05</b></caption>
+            <tr><th scope="row" align="left" width="35%">Loại sản phẩm</th><td>Phấn nước</td></tr>
+            <tr><th scope="row" align="left">Dung tích / Trọng lượng</th><td>15 g (kèm lõi thay thế)</td></tr>
+            <tr><th scope="row" align="left">Màu sắc</th><td>Tone 21 Sáng / Tone 23 Tự nhiên</td></tr>
+            <tr><th scope="row" align="left">Phiên bản</th><td>Tone 21 – Sáng, Tone 23 – Tự nhiên</td></tr>
+            <tr><th scope="row" align="left">Phù hợp</th><td>Da thường, da khô</td></tr>
+            <tr><th scope="row" align="left">Thành phần nổi bật</th><td>Niacinamide, chiết xuất ngọc trai, chỉ số SPF35 PA++</td></tr>
+          </table>
+          <p><strong>Cách dùng:</strong> Dặm nhẹ bằng bông phấn từ vùng giữa mặt ra ngoài, dặm thêm ở vùng cần che.</p>
+          <p><small>Hình ảnh và dữ liệu sản phẩm chỉ dùng cho thực hành.</small></p>
+          <p><a href="dat-hang.html#MP05">✉ Đặt hàng mẫu</a> &nbsp;·&nbsp; <a href="bang-gia.html">▦ Bảng giá</a> &nbsp;·&nbsp; <a href="index.html#nhom-trang-diem">⌂ Về danh mục</a> &nbsp;·&nbsp; <a href="#muc-luc">↑ Mục lục</a></p>
+        </td>
+      </tr>
+    </table>
+  </section>
+
+  <hr>
+  <section id="MP06" aria-labelledby="h-MP06">
+    <table width="100%" border="1" cellpadding="18" cellspacing="2" bgcolor="#FDEEF3">
+      <tr>
+        <td width="40%" align="center" valign="middle">
+          <figure>
+            <img src="images/mp06.svg" width="360" alt="Thỏi son kem lì màu đỏ gạch, nắp đen, bên cạnh là vệt son mẫu">
+            <figcaption><small>Hình MP06: Son kem lì Velvet Matte (ảnh minh họa)</small></figcaption>
+          </figure>
+        </td>
+        <td valign="top">
+          <h2 id="h-MP06">★ Son kem lì Velvet Matte</h2>
+          <p><font color="#C2185B"><b>✦ HOT</b></font> &nbsp; <strong>Mã SKU:</strong> MP06 &nbsp; <strong>Nhóm:</strong> Trang điểm</p>
+          <p><del>280.000 đ</del> &nbsp; <font size="5" color="#B0124F"><b>229.000 đ</b></font></p>
+          <p><mark>Tiết kiệm: 51.000 đ (-18%)</mark></p>
+          <p>Chất son mịn như nhung, lên màu chuẩn ngay lần lướt đầu, giữ màu 6–8 giờ.</p>
+          <table border="1" cellpadding="6" cellspacing="0" width="100%" bgcolor="#FFFFFF">
+            <caption><b>Thông số MP06</b></caption>
+            <tr><th scope="row" align="left" width="35%">Loại sản phẩm</th><td>Son kem</td></tr>
+            <tr><th scope="row" align="left">Dung tích / Trọng lượng</th><td>3,5 g</td></tr>
+            <tr><th scope="row" align="left">Màu sắc</th><td>Đỏ gạch / Hồng đất / Cam cháy</td></tr>
+            <tr><th scope="row" align="left">Phiên bản</th><td>Đỏ gạch, Hồng đất, Cam cháy</td></tr>
+            <tr><th scope="row" align="left">Phù hợp</th><td>Mọi loại môi</td></tr>
+            <tr><th scope="row" align="left">Thành phần nổi bật</th><td>Dầu jojoba, Vitamin E</td></tr>
+          </table>
+          <p><strong>Cách dùng:</strong> Thoa lớp mỏng từ giữa môi rồi tán dần ra viền môi.</p>
+          <p><small>Hình ảnh và dữ liệu sản phẩm chỉ dùng cho thực hành.</small></p>
+          <p><a href="dat-hang.html#MP06">✉ Đặt hàng mẫu</a> &nbsp;·&nbsp; <a href="bang-gia.html">▦ Bảng giá</a> &nbsp;·&nbsp; <a href="index.html#nhom-trang-diem">⌂ Về danh mục</a> &nbsp;·&nbsp; <a href="#muc-luc">↑ Mục lục</a></p>
+        </td>
+      </tr>
+    </table>
+  </section>
+
+  <hr>
+  <section id="MP07" aria-labelledby="h-MP07">
+    <table width="100%" border="1" cellpadding="18" cellspacing="2" bgcolor="#FFF5EC">
+      <tr>
+        <td width="40%" align="center" valign="middle">
+          <figure>
+            <img src="images/mp07.svg" width="360" alt="Cây mascara màu tím than với đầu cọ chải mi">
+            <figcaption><small>Hình MP07: Mascara Long Lash Waterproof (ảnh minh họa)</small></figcaption>
+          </figure>
+        </td>
+        <td valign="top">
+          <h2 id="h-MP07">★ Mascara Long Lash Waterproof</h2>
+          <p><font color="#C2185B"><b>✦ ƯU ĐÃI</b></font> &nbsp; <strong>Mã SKU:</strong> MP07 &nbsp; <strong>Nhóm:</strong> Trang điểm</p>
+          <p><del>250.000 đ</del> &nbsp; <font size="5" color="#B0124F"><b>209.000 đ</b></font></p>
+          <p><mark>Tiết kiệm: 41.000 đ (-16%)</mark></p>
+          <p>Đầu cọ chải tách từng sợi giúp mi dài và cong, chống nước, không lem.</p>
+          <table border="1" cellpadding="6" cellspacing="0" width="100%" bgcolor="#FFFFFF">
+            <caption><b>Thông số MP07</b></caption>
+            <tr><th scope="row" align="left" width="35%">Loại sản phẩm</th><td>Mascara</td></tr>
+            <tr><th scope="row" align="left">Dung tích / Trọng lượng</th><td>8 ml</td></tr>
+            <tr><th scope="row" align="left">Màu sắc</th><td>Đen</td></tr>
+            <tr><th scope="row" align="left">Phiên bản</th><td>Đen (chống nước)</td></tr>
+            <tr><th scope="row" align="left">Phù hợp</th><td>Mọi loại mi</td></tr>
+            <tr><th scope="row" align="left">Thành phần nổi bật</th><td>Sáp ong, Panthenol</td></tr>
+          </table>
+          <p><strong>Cách dùng:</strong> Chải từ chân mi ra ngọn theo hình zig-zag; tẩy trang bằng dầu tẩy trang.</p>
+          <p><small>Hình ảnh và dữ liệu sản phẩm chỉ dùng cho thực hành.</small></p>
+          <p><a href="dat-hang.html#MP07">✉ Đặt hàng mẫu</a> &nbsp;·&nbsp; <a href="bang-gia.html">▦ Bảng giá</a> &nbsp;·&nbsp; <a href="index.html#nhom-trang-diem">⌂ Về danh mục</a> &nbsp;·&nbsp; <a href="#muc-luc">↑ Mục lục</a></p>
+        </td>
+      </tr>
+    </table>
+  </section>
+
+  <hr>
+  <section id="MP08" aria-labelledby="h-MP08">
+    <table width="100%" border="1" cellpadding="18" cellspacing="2" bgcolor="#F1F7FD">
+      <tr>
+        <td width="40%" align="center" valign="middle">
+          <figure>
+            <img src="images/mp08.svg" width="360" alt="Bảng phấn mắt 9 ô màu cam, nâu, đỏ cùng cọ trang điểm">
+            <figcaption><small>Hình MP08: Bảng phấn mắt Sunset 9 ô (ảnh minh họa)</small></figcaption>
+          </figure>
+        </td>
+        <td valign="top">
+          <h2 id="h-MP08">★ Bảng phấn mắt Sunset 9 ô</h2>
+          <p><font color="#C2185B"><b>✦ MỚI</b></font> &nbsp; <strong>Mã SKU:</strong> MP08 &nbsp; <strong>Nhóm:</strong> Trang điểm</p>
+          <p><del>390.000 đ</del> &nbsp; <font size="5" color="#B0124F"><b>319.000 đ</b></font></p>
+          <p><mark>Tiết kiệm: 71.000 đ (-18%)</mark></p>
+          <p>Bảng màu ấm dễ phối khi đi học, đi làm và dự tiệc; độ bám cao, dễ tán.</p>
+          <table border="1" cellpadding="6" cellspacing="0" width="100%" bgcolor="#FFFFFF">
+            <caption><b>Thông số MP08</b></caption>
+            <tr><th scope="row" align="left" width="35%">Loại sản phẩm</th><td>Phấn mắt</td></tr>
+            <tr><th scope="row" align="left">Dung tích / Trọng lượng</th><td>9 × 1,2 g</td></tr>
+            <tr><th scope="row" align="left">Màu sắc</th><td>9 ô tông cam – nâu – đỏ (6 lì, 3 nhũ)</td></tr>
+            <tr><th scope="row" align="left">Phiên bản</th><td>Bảng Sunset 9 ô</td></tr>
+            <tr><th scope="row" align="left">Phù hợp</th><td>Mọi loại da</td></tr>
+            <tr><th scope="row" align="left">Thành phần nổi bật</th><td>Mica, không chứa Talc</td></tr>
+          </table>
+          <p><strong>Cách dùng:</strong> Dùng cọ tán màu sáng làm nền, màu đậm ở bầu mắt và đuôi mắt.</p>
+          <p><small>Hình ảnh và dữ liệu sản phẩm chỉ dùng cho thực hành.</small></p>
+          <p><a href="dat-hang.html#MP08">✉ Đặt hàng mẫu</a> &nbsp;·&nbsp; <a href="bang-gia.html">▦ Bảng giá</a> &nbsp;·&nbsp; <a href="index.html#nhom-trang-diem">⌂ Về danh mục</a> &nbsp;·&nbsp; <a href="#muc-luc">↑ Mục lục</a></p>
+        </td>
+      </tr>
+    </table>
+  </section>
+
+  <hr>
+  <section id="MP09" aria-labelledby="h-MP09">
+    <table width="100%" border="1" cellpadding="18" cellspacing="2" bgcolor="#F3FAF1">
+      <tr>
+        <td width="40%" align="center" valign="middle">
+          <figure>
+            <img src="images/mp09.svg" width="360" alt="Tuýp kem chống nắng Sun Shield màu vàng cam có biểu tượng mặt trời">
+            <figcaption><small>Hình MP09: Kem chống nắng Sun Shield SPF50+ (ảnh minh họa)</small></figcaption>
+          </figure>
+        </td>
+        <td valign="top">
+          <h2 id="h-MP09">★ Kem chống nắng Sun Shield SPF50+</h2>
+          <p><font color="#C2185B"><b>✦ BÁN CHẠY</b></font> &nbsp; <strong>Mã SKU:</strong> MP09 &nbsp; <strong>Nhóm:</strong> Chống nắng &amp; cơ thể</p>
+          <p><del>380.000 đ</del> &nbsp; <font size="5" color="#B0124F"><b>299.000 đ</b></font></p>
+          <p><mark>Tiết kiệm: 81.000 đ (-21%)</mark></p>
+          <p>Kết cấu sữa mỏng, không để lại vệt trắng, kiềm dầu; bảo vệ da trước tia UVA/UVB.</p>
+          <table border="1" cellpadding="6" cellspacing="0" width="100%" bgcolor="#FFFFFF">
+            <caption><b>Thông số MP09</b></caption>
+            <tr><th scope="row" align="left" width="35%">Loại sản phẩm</th><td>Kem chống nắng</td></tr>
+            <tr><th scope="row" align="left">Dung tích / Trọng lượng</th><td>50 ml</td></tr>
+            <tr><th scope="row" align="left">Màu sắc</th><td>Trắng ngà (nâng tông nhẹ)</td></tr>
+            <tr><th scope="row" align="left">Phiên bản</th><td>50 ml – SPF50+ PA++++</td></tr>
+            <tr><th scope="row" align="left">Phù hợp</th><td>Mọi loại da, kể cả da dầu mụn</td></tr>
+            <tr><th scope="row" align="left">Thành phần nổi bật</th><td>Màng lọc lai vật lý và hóa học, Niacinamide</td></tr>
+          </table>
+          <p><strong>Cách dùng:</strong> Thoa trước khi ra nắng 15 phút, thoa lại sau mỗi 2–3 giờ.</p>
+          <p><small>Hình ảnh và dữ liệu sản phẩm chỉ dùng cho thực hành.</small></p>
+          <p><a href="dat-hang.html#MP09">✉ Đặt hàng mẫu</a> &nbsp;·&nbsp; <a href="bang-gia.html">▦ Bảng giá</a> &nbsp;·&nbsp; <a href="index.html#nhom-chong-nang">⌂ Về danh mục</a> &nbsp;·&nbsp; <a href="#muc-luc">↑ Mục lục</a></p>
+        </td>
+      </tr>
+    </table>
+  </section>
+
+  <hr>
+  <section id="MP10" aria-labelledby="h-MP10">
+    <table width="100%" border="1" cellpadding="18" cellspacing="2" bgcolor="#FDF1EB">
+      <tr>
+        <td width="40%" align="center" valign="middle">
+          <figure>
+            <img src="images/mp10.svg" width="360" alt="Chai sữa dưỡng thể Body Glow có vòi nhấn, nhãn xanh lá">
+            <figcaption><small>Hình MP10: Sữa dưỡng thể Body Glow (ảnh minh họa)</small></figcaption>
+          </figure>
+        </td>
+        <td valign="top">
+          <h2 id="h-MP10">★ Sữa dưỡng thể Body Glow</h2>
+          <p><font color="#C2185B"><b>✦ ƯU ĐÃI</b></font> &nbsp; <strong>Mã SKU:</strong> MP10 &nbsp; <strong>Nhóm:</strong> Chống nắng &amp; cơ thể</p>
+          <p><del>350.000 đ</del> &nbsp; <font size="5" color="#B0124F"><b>289.000 đ</b></font></p>
+          <p><mark>Tiết kiệm: 61.000 đ (-17%)</mark></p>
+          <p>Dưỡng ẩm, giúp da toàn thân mềm mịn và sáng khỏe; hương thơm dịu nhẹ.</p>
+          <table border="1" cellpadding="6" cellspacing="0" width="100%" bgcolor="#FFFFFF">
+            <caption><b>Thông số MP10</b></caption>
+            <tr><th scope="row" align="left" width="35%">Loại sản phẩm</th><td>Sữa dưỡng thể</td></tr>
+            <tr><th scope="row" align="left">Dung tích / Trọng lượng</th><td>300 ml</td></tr>
+            <tr><th scope="row" align="left">Màu sắc</th><td>Trắng sữa</td></tr>
+            <tr><th scope="row" align="left">Phiên bản</th><td>Hương trà xanh, Hương hoa nhài</td></tr>
+            <tr><th scope="row" align="left">Phù hợp</th><td>Da body khô, xỉn màu</td></tr>
+            <tr><th scope="row" align="left">Thành phần nổi bật</th><td>Niacinamide, bơ hạt mỡ (Shea Butter), Vitamin E</td></tr>
+          </table>
+          <p><strong>Cách dùng:</strong> Thoa lên da sau khi tắm, massage nhẹ nhàng đến khi thấm hết.</p>
+          <p><small>Hình ảnh và dữ liệu sản phẩm chỉ dùng cho thực hành.</small></p>
+          <p><a href="dat-hang.html#MP10">✉ Đặt hàng mẫu</a> &nbsp;·&nbsp; <a href="bang-gia.html">▦ Bảng giá</a> &nbsp;·&nbsp; <a href="index.html#nhom-chong-nang">⌂ Về danh mục</a> &nbsp;·&nbsp; <a href="#muc-luc">↑ Mục lục</a></p>
+        </td>
+      </tr>
+    </table>
+  </section>
+</main>
+
+<footer>
+  <hr>
+  <table width="100%" border="0" cellpadding="16" cellspacing="0" bgcolor="#8E2C5A">
+    <tr>
+      <td align="center">
+        <font color="#FFFFFF"><b>✿ ROSIE BEAUTY</b> · 10 sản phẩm demo · © 2026</font><br>
+        <font color="#FFD6E5">Hotline (demo): 0900 000 000 · Email (demo): hotro@rosiebeauty.demo · Địa chỉ (demo): 227 Nguyễn Văn Cừ, Q.5, TP.HCM</font><br>
+        <font color="#FFD6E5">Dữ liệu, giá bán và đơn hàng đều mang tính minh họa phục vụ học tập.</font><br>
+        <font color="#FFFFFF" size="2">Sinh viên thực hiện: Nguyễn Cao Kỳ Ân – 23110064 – 23TTH1</font><br>
+        <a href="index.html"><font color="#FFFFFF">↥ Quay lại trang chủ</font></a>
+      </td>
+    </tr>
+  </table>
+</footer>
+</body>
+</html>
